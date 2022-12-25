@@ -18,6 +18,8 @@
 		044AF5E829517810007FCB6B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF5E729517810007FCB6B /* AddView.swift */; };
 		044AF5EB295457D4007FCB6B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF5EA295457D4007FCB6B /* ItemModel.swift */; };
 		044AF5EE29545F5D007FCB6B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF5ED29545F5D007FCB6B /* ListViewModel.swift */; };
+		044AF5F029556E06007FCB6B /* ListViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF5EF29556E06007FCB6B /* ListViewModelProtocols.swift */; };
+		044AF5F229583A3B007FCB6B /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF5F129583A3B007FCB6B /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		044AF5E729517810007FCB6B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		044AF5EA295457D4007FCB6B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		044AF5ED29545F5D007FCB6B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		044AF5EF29556E06007FCB6B /* ListViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelProtocols.swift; sourceTree = "<group>"; };
+		044AF5F129583A3B007FCB6B /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				044AF5E32951738F007FCB6B /* ListView.swift */,
 				044AF5E5295173E1007FCB6B /* ListRowView.swift */,
 				044AF5E729517810007FCB6B /* AddView.swift */,
+				044AF5F129583A3B007FCB6B /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				044AF5ED29545F5D007FCB6B /* ListViewModel.swift */,
+				044AF5EF29556E06007FCB6B /* ListViewModelProtocols.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -297,7 +303,9 @@
 				044AF5E829517810007FCB6B /* AddView.swift in Sources */,
 				044AF5EE29545F5D007FCB6B /* ListViewModel.swift in Sources */,
 				044AF5B929517367007FCB6B /* TodoListApp.swift in Sources */,
+				044AF5F029556E06007FCB6B /* ListViewModelProtocols.swift in Sources */,
 				044AF5E42951738F007FCB6B /* ListView.swift in Sources */,
+				044AF5F229583A3B007FCB6B /* NoItemsView.swift in Sources */,
 				044AF5E6295173E1007FCB6B /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
